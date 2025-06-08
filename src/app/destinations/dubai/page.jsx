@@ -3,7 +3,7 @@ import React from 'react'
 
 function page() {
   return (
-   <div className="w-full bg-white text-black">
+    <div className="w-full bg-white text-black">
 
       {/* Hero Section */}
       <section
@@ -12,13 +12,14 @@ function page() {
       >
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-white">
-          <h1 className="text-4xl md:text-6xl font-bold">About Us</h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Dubai</h1>
           <p className="mt-2 text-lg text-gray-300 max-w-xl">
-            Your trusted Destination Management Company in Dubai, Abu Dhabi & Ras Al Khaimah
+            Discover the city of innovation and luxury with tailored experiences crafted just for you.
           </p>
         </div>
+
       </section>
-      <BookingForm/>
+      <BookingForm />
 
     </div>
   )
